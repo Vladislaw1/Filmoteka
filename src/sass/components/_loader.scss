@@ -1,0 +1,39 @@
+#p_prldr {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(122, 119, 117);
+  opacity: 0.7;
+  z-index: 30;
+}
+
+.contpre small {
+  font-size: 25px;
+  letter-spacing: 0.5px;
+}
+
+.contpre {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  margin-left: -125px;
+  margin-top: -75px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  letter-spacing: -2px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#p_prldr .svg_anm {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../images/ball-triangle.svg) center center no-repeat;
+  background-size: 100px;
+  margin: -100px 0 0 -50px;
+}

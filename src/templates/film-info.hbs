@@ -1,0 +1,35 @@
+<div class="film-info-container">
+  <div class="modal-img">
+    <img class="img-poster" src="https://image.tmdb.org/t/p/w500/{{poster_path}}" alt="{{title}}" />
+  </div>
+  <div class=" modal-info">
+    <h2 class="title-modal">{{original_title}}</h2>
+    <div class="feature">
+      <div class="text-left">
+        <p class="text-modal">Vote/Votes</p>
+        <p class="text-modal">Popularity</p>
+        <p class="text-modal">Original Title</p>
+        <p class="text-modal">Genre</p>
+      </div>
+      <div class="text-right">
+        <p class="text-value">
+          <span class="text-rating-1">{{vote_average}}</span><span class="slash"> /</span>
+          <span class="text-rating-2">{{vote_count}}</span>
+        </p>
+        <p class="text-value">{{popularity}}</p>
+        <p class="text-value uppercase">{{original_title}}</p>
+        <p class="text-value">{{genre_ids}}</p>
+      </div>
+    </div>
+
+    <p class="about-title-modal">About</p>
+    <p class="about-description">
+      {{overview}}
+    </p>
+
+    <div class="btn-container">
+      <button class="btn-modal btn-modal-add" data-film-id="{{id}}">add to watched</button>
+      <button class="btn-modal btn-modal-queue">add to queue</button>
+    </div>
+  </div>
+</div>

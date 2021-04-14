@@ -1,0 +1,44 @@
+.btn-container {
+  display: flex;
+}
+.btn-modal {
+  display: inline-block;
+  
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+  width: 136px;
+  height: 44px;
+  border: 1px solid #000000;
+
+  background: transparent;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 125px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 136px;
+  }
+}
+.header-content .btn-modal{
+  filter: drop-shadow(0px 8px 43px rgba(255, 107, 1, 0.6));
+}
+
+.btn-modal.isActive {
+  color: #ffffff;
+  width: 125.03px;
+  height: 44px;
+  border: none;
+  outline: none;
+  background: #ff6b01;
+}

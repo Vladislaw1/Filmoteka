@@ -1,0 +1,19 @@
+<a class="arrow-btn " href="#" role="button" data-id="prev">
+    <svg class="arrow-icon" data-id="prev">
+        <use href="{{src}}#arrow-left"></use>
+    </svg>
+</a>
+
+<ul class="pages-list">
+    {{#each list}}
+    <li class="pages-list-item" data-type="pagination-item" data-id="{{this}}">
+        <a href="" class="pages-list-link" data-id="pagination">{{this}}</a>
+    </li>
+    {{/each}}
+</ul>
+
+<a class="arrow-btn " href="#" role="button" data-id="next">
+    <svg class="arrow-icon" data-id="next">
+        <use href="{{src}}#arrow-right"></use>
+    </svg>
+</a>

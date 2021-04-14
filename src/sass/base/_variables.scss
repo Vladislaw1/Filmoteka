@@ -1,0 +1,17 @@
+:root {
+    --primary-text-color:  rgba(255,255,255,1);
+    --primary-bg-color: #E5E5E5;
+    --footer-bg-color: rgba(247,247,247,1);
+    --footer-text-colour: rgba(84,84,84,1);
+    --title-colour: #000000;
+    --underline-orange-color: rgba(255,107,8,1);
+    --subtitle-orange-color: rgba(255,107,1,1);
+    --error-text-color: rgba(255,0,27,1);
+    --modal-grey-text-color: rgba(140,140,140,1);
+}
+
+$tablet-breakpoint: 1200px;
+$mobile-breakpoint: 480px;
+
+// $mobile: @media screen and (min-width: 320px);
+
